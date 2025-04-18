@@ -41,8 +41,76 @@
 - yes and yes again
 - Good to go 
 
+> git diff --staged
+- It shows the difference between the changes made in the staging area and the repository
+
 > git diff
 - It shows the difference between the changes made in the repository
 
+> git branch 
+- It shows the branches in the repository
 
+> git checkout -b branch-name
+- It creates a new branch and switches to it
 
+> git checkout branch-name
+- It switches to the branch
+
+> git merge branch-name
+- It merges the branch to the current branch
+
+> git branch -d branch-name
+- It deletes the branch
+
+> git branch -D branch-name
+- It deletes the branch forcefully
+
+> git reset 
+- It resets the changes made in the repository
+
+> git reset --hard commit-id
+- It resets the changes made in the repository to the commit-id
+
+> git reset --soft commit-id
+- It resets the changes made in the repository to the commit-id but it keeps the changes in the staging area
+
+> git reset --soft <commit-id>
+- It resets the changes made in the repository to the commit-id but it keeps the changes in the staging area
+
+> git reset --hard <commit-id>
+- It resets the changes made in the repository to the commit-id and it deletes the changes in the staging area
+
+> git stash
+- It stashes the changes made in the repository
+
+> git stash apply
+- It applies the changes made in the repository
+
+> git stash list
+- It shows the list of stashes
+
+> git stash drop stash@{0}
+- It drops the stash
+
+> git tag tag-name
+- It creates a tag
+
+> git tag -a tag-name -m "message"
+- It creates a tag with a message
+
+> git tag -d tag-name
+- It deletes the tag
+
+> git tag -a tag-name -m "message"
+- It creates a tag with a message
+
+> git rm file-name
+- It removes the file from the repository
+
+> git clean -fd
+- It removes the untracked files from the repository
+- f forces the removal 
+- d removes untracked directories as well 
+
+> git fetch origin
+- It fetches the changes from the remote repository
