@@ -41,6 +41,8 @@
 - yes and yes again
 - Good to go 
 
+> git diff
+- It shows the difference between the changes made in the repository
 
 
 
