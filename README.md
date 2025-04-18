@@ -24,6 +24,21 @@
 > git push -u origin main
 - It pushes the changes from local repository to remote repository
 
-> git pull
-- It pulls the changes from remote repository to local repository
+> git push
+- It pushes the changes from local repository to remote repository
+
+> To use SSH instead of HTTPS
+- git remote -v
+- ls ~/.ssh  
+- ssh-keygen -t ed25519 -C "your-github-email"
+- hit enter and enter again
+- cat ~/.ssh/id_ed25519.pub 
+- copy the output 
+- Go to GitHub → Settings → SSH and GPG keys → New SSH key → Title → Paste the key → Add SSH key → Test SSH
+- git remote  set-url origin et-url origin EMAIL:username/repository.git
+- yes and yes again
+- ssh -T git@github.com
+- yes and yes again
+- Good to go 
+
 
