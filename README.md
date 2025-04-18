@@ -114,3 +114,6 @@
 
 > git fetch origin
 - It fetches the changes from the remote repository
+
+> git --help
+- It shows the help
